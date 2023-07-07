@@ -1,0 +1,88 @@
+:root{
+    --main-color: #0d6efd;
+    --font-weight: 20;
+    --font-bold:bold;
+}
+
+/* color font a on navbar */
+.navbar-brand{
+    color: var(--main-color);
+    font-weight: var(--font-weight);
+}
+
+.navbar-brand:hover{
+    color: var(--main-color);
+}
+
+/* presentation */
+
+main .container-sm{
+    color: var(--main-color);
+    font-weight: var(--font-weight);
+}
+
+#text_passw_generator_presentation{
+    color: var(--main-color);
+    font-weight: var(--font-bold);
+}
+
+
+/* generator */
+.mainpage{
+    height: 100vh;
+}
+    /* space beetwen buttons */
+
+.btn-space{
+    margin-right: 10px;
+}
+
+    /* font color text input readonly */
+
+.form-control{
+    color: var(--main-color);
+    border: 1px solid var(--main-color);
+}
+
+.form-control:focus{
+    color: var(--main-color);
+}
+
+    /* long password */
+.form-select
+{
+    color: var(--main-color);
+    font-size: 15px;
+}
+    
+
+
+/* footer */
+footer{
+    background-color: var(--main-color);
+}
+
+.text-footer{
+    font-size: 17px;
+}
+
+.img-footer{
+    margin-bottom: 10px;
+}
+
+
+.img-footer > img{
+    height: 22px;
+    width: auto;
+}
+
+#html{
+    height: 25px;
+    width: auto;
+}
+
+#css{
+    height: 27px;
+    width: auto;
+}
+
